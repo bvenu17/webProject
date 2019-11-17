@@ -1,0 +1,9 @@
+{{#each places}}
+<h5>{{{this.name}}}</h5>
+<p>{{{this.formatted_address}}}</p>
+<p>{{{this.opening_hours.open_now}}}</p>
+<p>{{{this.rating}}}</p>
+<p>{{{this.photos.0.height}}}</p>
+<img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference={{{this.photos.0.photo_reference}}}&key=AIzaSyAgCmZMYCBmuNLO_gJOxCWzobV3DLvtevY"></img>
+<iframe  width="600" height="450" frameborder="0" style="border:0;height:300px;width:300px" src="https://www.google.com/maps/embed/v1/place?q=place_id:{{{this.place_id}}}&key=AIzaSyAgCmZMYCBmuNLO_gJOxCWzobV3DLvtevY" allowfullscreen></iframe>
+{{/each}}

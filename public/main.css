@@ -1,0 +1,23 @@
+.brand-logo {
+margin-left: 10px;
+font-style: italic;
+font-family: avenir, Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+
+}
+.nav-tabs{
+    font-size:1.2rem;
+    font-weight: normal;
+    font-style: italic;
+}
+.parallax-container .p{
+    
+    margin-top: 0px;
+}
+.ss {
+    width:100vh;
+    height:100vh;
+}
+.first{
+    background: blue;
+}
