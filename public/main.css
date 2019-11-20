@@ -3,17 +3,23 @@ margin-left: 10px;
 font-style: italic;
 font-family: avenir, Tahoma, Geneva, Verdana, sans-serif;
 font-weight: bold;
-
+}
+.nav3-wrapper{
+    background:linear-gradient(to right, #040404, #000000, #656565);
 }
 .nav-tabs{
     font-size:1.2rem;
     font-weight: normal;
     font-style: italic;
 }
+.parallax .img{
+
+}
 .parallax-container .p{
     
     margin-top: 0px;
 }
+
 .ss {
     width:100vh;
     height:100vh;
